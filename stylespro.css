@@ -1,0 +1,145 @@
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZWUzYzQwOWQtM2Y5ZS00NGIwLWJhZTItODMzNjI4NjNhNjFkXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg");
+    background-size: cover;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container img {
+    display: block;
+    width: 200px; /* Adjust the image width as needed */
+    height: auto; /* Adjust the image height as needed */
+    margin-bottom: 10px; /* Add some spacing between the images */
+    cursor: pointer;
+  }
+
+  .container img:hover {
+    background-color: black;
+  }
+
+  .container img.image1 {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the width as per your requirements */
+    height: auto; /* Adjust the height as per your requirements */
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 1); /* Add box shadow */
+  }
+  
+  .container img.image3 {
+    position: absolute;
+    top: 400px;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the width as per your requirements */
+    height: auto; /* Adjust the height as per your requirements */
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 1); /* Add box shadow */
+  }
+
+  .container img.image4 {
+    position: absolute;
+    top: 350px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 200px; /* Adjust the width as per your requirements */
+    height: 350px; /* Adjust the height as per your requirements */
+    box-shadow: 30px 30px 20px rgb(253, 186, 0); /* Add box shadow */
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    margin: 15% auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .close {
+    color: #ccc;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .container img {
+    /* Existing styles */
+    transition: box-shadow 5s ease; /* Add transition for box-shadow property */
+  }
+  
+  .container img.transitioned {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 1); /* Adjust the lighter shadow color */
+  }
+
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #45a049;
+  }
+
+  .Gif {
+    position: absolute;
+    top: 100px;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the width as per your requirements */
+    height: auto; /* Adjust the height as per your requirements */
+  }
+
+  .image-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button-money {
+    background-image: url("https://www.marketplace.org/wp-content/uploads/2023/04/USdollar.jpg?fit=740%2C493");
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
